@@ -1,11 +1,12 @@
+import React from 'react';
+import NavBar from './navBar';
+
 function App() {
-
-
   return (
     <>
-      <h2 className="text-2xl text-blue-500"> Hello Baby Girl</h2>
+      <NavBar />
     </>
   )
 }
 
-export default App
+export default App;
