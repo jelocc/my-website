@@ -1,10 +1,12 @@
 import React from 'react';
 import NavBar from './navBar';
+import Home from './home';
 
-function App() {
+const App = () => {
   return (
     <>
       <NavBar />
+      <Home />
     </>
   )
 }

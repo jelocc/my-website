@@ -14,6 +14,7 @@ const NavBar = () => {
       marginTop: '2rem',
       mx: 'auto',
       position: 'sticky',
+      zIndex: 1100
     }}>
       <Toolbar sx={{
         display: 'flex',
